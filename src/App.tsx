@@ -1,4 +1,4 @@
-import { Download, Smartphone, Users, MessageCircle, TrendingUp, Shield, Globe, Zap, Leaf, Heart, Star, CheckCircle, Code, Database, Wifi, Lock, ChevronDown, Quote, Award, Target, BarChart3, TrendingDown } from 'lucide-react'
+import { Download, Smartphone, Users, MessageCircle, TrendingUp, Shield, Globe, Zap, Heart, Star, CheckCircle, Code, Database, Wifi, Lock, ChevronDown, Quote, BarChart3, TrendingDown } from 'lucide-react'
 import { useEffect } from 'react'
 
 function App() {
