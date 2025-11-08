@@ -32,7 +32,7 @@ function App() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3 group cursor-pointer">
               <div className="w-12 h-12 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105 group-hover:rotate-6">
-                <img src="/icon.svg" alt="MarkIt Logo" className="w-full h-full group-hover:animate-bounce-slow" />
+                <img src="/icon.svg" alt="MarkIt Logo" className="w-full h-full group-hover:animate-bounce-slow" loading="eager" decoding="async" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent animate-gradient">MarkIt</span>
             </div>
@@ -88,6 +88,15 @@ function App() {
                   <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                 </a>
                 <a 
+                  href="/MarkIt.apk"
+                  download="MarkIt.apk"
+                  className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1"
+                >
+                  <Smartphone className="mr-2 group-hover:animate-bounce" size={20} />
+                  Download APK
+                  <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+                <a 
                   href="#about" 
                   className="group inline-flex items-center justify-center px-8 py-4 bg-white text-green-600 border-2 border-green-200 rounded-xl hover:bg-green-50 hover:border-green-300 transition-all duration-300 hover:shadow-lg"
                 >
@@ -122,6 +131,8 @@ function App() {
                     src="/poster.svg" 
                     alt="MarkIt Application Poster" 
                     className="w-full h-auto rounded-2xl"
+                    loading="lazy"
+                    decoding="async"
                   />
                   {/* Floating badges */}
                   <div className="absolute -top-4 -right-4 bg-white rounded-full p-3 shadow-xl animate-float hover:scale-110 transition-transform cursor-pointer">
@@ -231,6 +242,8 @@ function App() {
                   src="/poster.svg" 
                   alt="MarkIt Application Features" 
                   className="w-full h-auto rounded-lg shadow-lg"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -740,7 +753,8 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto mb-12">
             {/* Android Download */}
             <a 
-              href="#" 
+              href="/MarkIt.apk" 
+              download="MarkIt.apk"
               className="group relative p-8 bg-white rounded-2xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden scroll-animate-left"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 opacity-0 group-hover:opacity-10 transition-opacity"></div>
