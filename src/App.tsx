@@ -39,7 +39,7 @@ function App() {
             <div className="hidden md:flex space-x-1">
               <a href="#features" className="px-4 py-2 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-lg transition-all duration-200 hover:scale-105 transform">Features</a>
               <a href="#about" className="px-4 py-2 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-lg transition-all duration-200 hover:scale-105 transform">About</a>
-              <a href="https://mark-it-iota.vercel.app/auth" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-lg hover:shadow-lg transition-all duration-200 hover:scale-105 transform hover:-translate-y-1">Launch App</a>
+              <a href="https://markit-ten.vercel.app/auth" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-lg hover:shadow-lg transition-all duration-200 hover:scale-105 transform hover:-translate-y-1">Launch App</a>
             </div>
           </div>
         </nav>
@@ -77,7 +77,7 @@ function App() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="https://mark-it-iota.vercel.app/auth" 
+                  href="https://markit-ten.vercel.app" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 animate-shimmer hover-glow relative overflow-hidden"
@@ -128,7 +128,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-emerald-500 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
                 <div className="relative bg-gradient-to-br from-white to-green-50 rounded-3xl p-6 md:p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-[1.02] border border-green-100">
                   <img 
-                    src="/poster.svg" 
+                    src="/MarkIt Poster(2).png" 
                     alt="MarkIt Application Poster" 
                     className="w-full h-auto rounded-2xl"
                     loading="lazy"
@@ -239,7 +239,7 @@ function App() {
               </div>
               <div className="relative">
                 <img 
-                  src="/poster.svg" 
+                  src="/MarkIt Poster(2).png" 
                   alt="MarkIt Application Features" 
                   className="w-full h-auto rounded-lg shadow-lg"
                   loading="lazy"
@@ -774,7 +774,7 @@ function App() {
             
             {/* Web App */}
             <a 
-              href="https://mark-it-iota.vercel.app/auth" 
+              href="https://markit-ten.vercel.app/auth" 
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-8 bg-white rounded-2xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden"
@@ -833,7 +833,7 @@ function App() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#features" className="hover:text-green-400 transition-all duration-200 hover:translate-x-1 inline-block">Features</a></li>
                 <li><a href="#about" className="hover:text-green-400 transition-all duration-200 hover:translate-x-1 inline-block">About</a></li>
-                <li><a href="https://mark-it-iota.vercel.app/auth" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-all duration-200 hover:translate-x-1 inline-block">Launch App</a></li>
+                <li><a href="https://markit-ten.vercel.app/auth" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-all duration-200 hover:translate-x-1 inline-block">Launch App</a></li>
               </ul>
             </div>
             
